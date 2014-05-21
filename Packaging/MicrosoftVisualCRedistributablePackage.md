@@ -15,7 +15,7 @@ Often when I am developing/testing Windows OS deployment or creating application
 4. a file called `MicrosoftVCRedist_1.0.0.0.exe` should be created
 
 ## License
-*N.B. For the package bundle not the redistributables themselves*
+*N.B. This license applies to the package bundle, not to the redistributables themselves*
 
 ````
 This is free and unencumbered software released into the public domain.

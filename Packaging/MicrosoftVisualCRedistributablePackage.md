@@ -3,14 +3,44 @@
 ## Overview
 Often when I am developing/testing Windows OS deployment or creating application packages I need or expect the Visual C++ redistributables to be available on the target system. This is a quick WiX [installation package bundle](http://wixtoolset.org/documentation/manual/v3/bundle/) that installs all of the latest [supported](http://support.microsoft.com/kb/2019667) redistributables (including v2013 although it is not explicity listed in that KB article).
 
+*Please note I use this for strictly for development and testing purposes*, and offer it in the hope you might get some value from it. Mainly I wrote it to get some WiX Burn experience, and to save me some time. A better practice would be to package each redistributable seperately, and only deploy each one as required in a production environment in a more controlled manner, keeping your application "surface" area to a minimum.
+
 ## Assumptions
-* WiX has been downloaded and is in your PATH variable [https://wix.codeplex.com/releases/view/115492]()
+* [WiX](https://wix.codeplex.com/releases/view/115492) has been downloaded and is in your PATH variable
 
 ## Instructions
 1. save `download.ps1` to a text file, and run it from a directory in which you plan to create the package
 2. save `MicrosoftVCRedist_1.0.0.0.wix` to a text file in the root directory
 3. save `compile.ps1` to a text file, and run it from the root directory
 4. a file called `MicrosoftVCRedist_1.0.0.0.exe` should be created
+
+## License
+*N.B. For the package bundle not the redistributables themselves*
+
+````
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+````
 
 ## Resources
 

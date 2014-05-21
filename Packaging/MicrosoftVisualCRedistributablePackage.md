@@ -1,6 +1,21 @@
-# 
+# Microsoft Visual C++ Redistributable Package
+
+## Overview
+Often when I am developing/testing Windows OS deployment or creating application packages I need or expect the Visual C++ redistributables to be available on the target system. This is a quick WiX [installation package bundle](http://wixtoolset.org/documentation/manual/v3/bundle/) that installs all of the latest [supported](http://support.microsoft.com/kb/2019667) redistributables (including v2013 although it is not explicity listed in that KB article).
+
+## Assumptions
+* WiX has been downloaded and is in your PATH variable [https://wix.codeplex.com/releases/view/115492]()
+
+## Instructions
+1. save `download.ps1` to a text file, and run it from a directory in which you plan to create the package
+2. save `MicrosoftVCRedist_1.0.0.0.wix` to a text file in the root directory
+3. save `compile.ps1` to a text file, and run it from the root directory
+4. a file called `MicrosoftVCRedist_1.0.0.0.exe` should be created
+
+## Resources
 
 ```` ps1
+# download.ps1
 function Expand-Zip ($File)
 {
 	$shell = New-Object -ComObject Shell.Application
@@ -38,8 +53,9 @@ Start-Process -FilePath .\7za.exe -ArgumentList "x -r .\2005\x86\vcredist_x86.ex
 Start-Process -FilePath .\7za.exe -ArgumentList "x -r .\2005\x64\vcredist_x64.exe -o"".\2005\x64""" -NoNewWindow -Wait
 ````
 
-````
+```` xml
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- MicrosoftVCRedist_1.0.0.0.wix -->
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
     <Bundle Name="Microsoft Visual C++ Redistributables Package" Version="1.0.0.0" Manufacturer="Tim de Vries" UpgradeCode="cf68097f-ba14-4939-8f00-7bc90367d40d" DisableModify="yes"
 			Condition="VersionNT &gt;= &quot;6.0&quot;" HelpUrl="http://support.microsoft.com/kb/2019667" Copyright="Copyright © 2014, Tim de Vries (package only)" AboutUrl="http://support.microsoft.com/kb/2019667">
@@ -57,7 +73,7 @@ Start-Process -FilePath .\7za.exe -ArgumentList "x -r .\2005\x64\vcredist_x64.ex
 			<!-- Visual C++ Redistributable 2005 doesn't support uninstall in EXE format, so extract the files and install the MSI -->
             <MsiPackage Id="msi9f83d9f2626b4fccbbb22cf1d3f848c0" SourceFile="2005\x86\vcredist.msi" DisplayName="Visual C++ Runtime 8.0.50727.6195 x86" Visible="yes" />
             <MsiPackage Id="msi7b6bdd30b3ef47eab49a5da3b878f029" SourceFile="2005\x64\vcredist.msi" DisplayName="Visual C++ Runtime 8.0.50727.6195 x64" Visible="yes" />
-            <!-- The remaing Visual C++ Redistributables don't support directly installing using the MSI, so we invoke the EXE file -->
+            <!-- The remaining Visual C++ Redistributables don't support directly installing using the MSI, so we invoke the EXE file -->
             <ExePackage Id="exe7e264baeaad5442b80bc3d5d2d90d31a" DetectCondition="VCRedist2008x86 = &quot;9.0.30729.6161&quot;" SourceFile="2008\vcredist_x86.exe" DisplayName="Visual C++ Redistributable 9.0.30729.6161 x86" InstallCommand="/q" UninstallCommand="/qu" />
             <ExePackage Id="exe522ac6f820c54300be35e2ae562e899c" DetectCondition="VCRedist2008x64 = &quot;9.0.30729.6161&quot;" SourceFile="2008\vcredist_x64.exe" DisplayName="Visual C++ Redistributable 9.0.30729.6161 x64" InstallCommand="/q" UninstallCommand="/qu" />
             <ExePackage Id="exe60c0db1b0bfd4376a4471544b71a4369" DetectCondition="VCRedist2010x86 = &quot;10.0.40219&quot;" SourceFile="2010\vcredist_x86.exe" DisplayName="Visual C++ Redistributable 10.0.40219 x86" InstallCommand="/q /norestart" UninstallCommand="/q /uninstall /norestart" />
@@ -72,6 +88,7 @@ Start-Process -FilePath .\7za.exe -ArgumentList "x -r .\2005\x64\vcredist_x64.ex
 ````
 
 ```` ps1
+# compile.ps1
 candle.exe -ext WixBalExtension -ext WixUtilExtension "MicrosoftVCRedist_1.0.0.0.wix"
 light.exe -ext WixBalExtension -ext WixUtilExtension -o "MicrosoftVCRedist_1.0.0.0.exe" "MicrosoftVCRedist_1.0.0.0.wixobj" 
 ````

@@ -7,8 +7,8 @@ permalink:        pretty
 
 # Setup
 title:            'Tim de Vries'
-tagline:          ''
-description:      ''
+tagline:          'A collection of ramblings, stumblings and findings for sharing'
+description:      'A collection of ramblings, stumblings and findings for sharing'
 url:              http://www.devriesitc.com
 baseurl:          '/'
 paginate:         5
@@ -18,7 +18,7 @@ author:
   url:            http://www.devriesitc.com
 
 # Custom vars
-version:          1.0.0
+version:          1.0.0.0
 
 github:
   repo:           https://github.com/timbodv/timbodv.github.io

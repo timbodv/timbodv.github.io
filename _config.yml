@@ -7,8 +7,8 @@ permalink:        pretty
 
 # Setup
 title:            'Tim de Vries'
-tagline:          'A collection of ramblings, stumblings and findings for sharing'
-description:      'A collection of ramblings, stumblings and findings for sharing'
+tagline:          'web accessible notepad'
+description:      'web accessible notepad'
 url:              http://www.devriesitc.com
 baseurl:          '/'
 paginate:         5

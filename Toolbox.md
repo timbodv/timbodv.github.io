@@ -42,3 +42,4 @@ WMIExplorer
 
 ## Resources
 * [Hanselman Ultimate Tools List](http://hanselman.com/tools)
+http://blog.codinghorror.com/updating-your-utility-belt/

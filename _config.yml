@@ -7,8 +7,8 @@ permalink:        pretty
 
 # Setup
 title:            'Tim de Vries'
-tagline:          'web accessible notepad'
-description:      'web accessible notepad'
+tagline:          'my notepad on the web'
+description:      'my notepad on the web'
 url:              http://www.devriesitc.com
 baseurl:          '/'
 paginate:         5

@@ -3,14 +3,10 @@ layout: post
 title: PowerShell, Office 365 and Azure
 ---
 
-**This post is in progress**
+##  Notes
+Office 365 Rights Management may [require a valid Azure subscription](http://technet.microsoft.com/en-us/library/dn655136.aspx).
 
-
-
-###  Requirements
-Office 365 Rights Management [requires a valid Azure subscription](http://technet.microsoft.com/en-us/library/dn655136.aspx) and I'd suggest signing up for this before attempting to enable the feature.
-
-### Downloads
+## Downloads
 * [Microsoft Online Services Sign-In Assistant for IT Professionals RTW (version 7.250.4556.0)](http://www.microsoft.com/en-us/download/details.aspx?id=41950)
 * Windows Azure AD Module for Windows PowerShell
 	* [x86](http://go.microsoft.com/fwlink/p/?linkid=236298)
@@ -20,6 +16,6 @@ Office 365 Rights Management [requires a valid Azure subscription](http://techne
 * [SharePoint Online Management Shell  (version 1.0)](http://www.microsoft.com/en-us/download/details.aspx?id=35588)
 * [Windows PowerShell Module for Lync Online (version 8892.0)](http://www.microsoft.com/en-us/download/details.aspx?id=39366)
 
-### References
+## References
 * [markwilson.it » Administering Office 365 using PowerShell: updated information on the required components](http://www.markwilson.co.uk/blog/2014/08/administering-office-365-using-powershell-updated-information-on-the-required-components.htm)
 * [O365 and Powershell Part I (Getting Started) - Marcus Fernandez - Site Home - MSDN Blogs](http://blogs.msdn.com/b/marcus_fernandez/archive/2014/08/14/o365-and-powershell-part-i-getting-started.aspx)

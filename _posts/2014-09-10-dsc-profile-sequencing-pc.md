@@ -3,8 +3,8 @@ layout: post
 title: DSC script for App-V 5.0 Sequencing PC
 ---
 
-~~~~
-
+## Script
+~~~~ ps1
 $config = @{
 	AllNodes = @(
 		@{
@@ -92,5 +92,5 @@ Configuration SequencerTemplate
 
 ~~~
 
-
-`SequencerTemplate -ConfigurationData $config -ComputerName vm001`
+## Usage
+`SequencerTemplate -ConfigurationData $config -ComputerName localhost`

@@ -44,25 +44,32 @@ Configuration SequencerTemplate
             State = "Stopped"
         }
         
-        <#
-        
-        # to check out : Set-MpPreference -DisableRealtimeMonitoring
-        # Set-MpPreference -MAPSReporting 0
-        
-        Service WindowsDefenderConfig
-        {
-            Name = "WinDefend"
-            StartupType = "Disabled"
-            State = "Stopped"
-        }
-        
-        Service WindowsDefender2Config
-        {
-            Name = "WdNisSvc"
-            StartupType = "Disabled"
-            State = "Stopped"
-        }
-	#>
+		Registry PowerShellConfig1
+		{
+			Ensure = "Present"
+			Key = "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\PowerShell"
+			ValueName = "EnableScripts"
+			ValueData = "1"
+			ValueType = "Dword"
+		}
+
+		Registry PowerShellConfig2
+		{
+			Ensure = "Present"
+			Key = "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\PowerShell"
+			ValueName = "ExecutionPolicy"
+			ValueData = "Bypass"
+			ValueType = "String"
+		}
+
+		Registry WindowsDefenderDisable
+		{
+			Ensure = "Present"
+			Key = "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender"
+			ValueName = "DisableAntiSpyware"
+			ValueData = "1"
+			ValueType = "Dword"
+		}
 		
         User PackageUser
         {

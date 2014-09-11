@@ -8,7 +8,7 @@ title: DSC script for App-V 5.0 Sequencing PC
 $config = @{
 	AllNodes = @(
 		@{
-			NodeName = "vm001";
+			NodeName = "localhost";
 			PSDscAllowPlainTextPassword = $true
 		}
 )}
@@ -45,6 +45,10 @@ Configuration SequencerTemplate
         }
         
         <#
+        
+        # to check out : Set-MpPreference -DisableRealtimeMonitoring
+        # Set-MpPreference -MAPSReporting 0
+        
         Service WindowsDefenderConfig
         {
             Name = "WinDefend"

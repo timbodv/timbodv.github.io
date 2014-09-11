@@ -39,6 +39,9 @@ WinSCP.exe
 wix38
 WMIExplorer
 
+## PowerShell
+* [https://github.com/lzybkr/PSReadLine]()
+
 
 ## Resources
 * [Hanselman Ultimate Tools List](http://hanselman.com/tools)

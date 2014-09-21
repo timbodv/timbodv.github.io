@@ -36,4 +36,3 @@ title: Toolbox
 * [Hanselman Ultimate Tools List](http://hanselman.com/tools)
 * [Utility Belt](http://blog.codinghorror.com/updating-your-utility-belt/)
 
-{% gist ce12767f3d81c66d39a1 %}

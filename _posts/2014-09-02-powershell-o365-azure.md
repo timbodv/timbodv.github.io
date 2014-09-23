@@ -4,7 +4,7 @@ title: PowerShell, Office 365 and Azure
 ---
 
 ##  Notes
-Office 365 Rights Management may [require a valid Azure subscription](http://technet.microsoft.com/en-us/library/dn655136.aspx).
+Office 365 Rights Management does [require a valid Azure subscription](http://technet.microsoft.com/en-us/library/dn655136.aspx).
 
 ## Downloads
 * [Microsoft Online Services Sign-In Assistant for IT Professionals RTW (version 7.250.4556.0)](http://www.microsoft.com/en-us/download/details.aspx?id=41950)

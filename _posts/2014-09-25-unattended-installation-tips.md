@@ -1,7 +1,3 @@
----
-layout: post
-title: Unattended Installation Tips
----
 
 ## EXE Installers
 ### Generic
@@ -161,10 +157,10 @@ Add-AppvClientPackage -Path .\dotPDN_Paint.NET_3.5.11_1.0_V.appv -DynamicDeploym
 ~~~~ ps1
 # In this example, we search for a package with a name like *dotpdn* and remove it
 # If the search term matched multiple packages, they would all be removed
-Get-AppvClientPackage -Name \*dotpdn* -All | Remove-AppvClientPackage
+Get-AppvClientPackage -Name *dotpdn* -All | Remove-AppvClientPackage
 ~~~~
 
 ~~~~ ps1
 # As above, but if the package is in use, unpublish it first and reboot or logoff. You can then remove the package
-Get-AppvClientPackage -Name \*dotpdn* | Unpublish-AppvClientPackage -Global
+Get-AppvClientPackage -Name *dotpdn* | Unpublish-AppvClientPackage -Global
 ~~~~

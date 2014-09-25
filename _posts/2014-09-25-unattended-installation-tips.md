@@ -166,5 +166,5 @@ Get-AppvClientPackage -Name *dotpdn* -All | Remove-AppvClientPackage
 
 ~~~~ ps1
 # As above, but if the package is in use, unpublish it first and reboot or logoff. You can then remove the package
-Get-AppvClientPackage -Name *dotpdn* | Unpublish-AppvClientPackage -Global
+Get-AppvClientPackage -Name \*dotpdn* | Unpublish-AppvClientPackage -Global
 ~~~~

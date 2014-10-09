@@ -6,7 +6,7 @@ title: Office 365 Links and Information
 ## Licensing
 ### PowerShell Example to Assign Part of a License to a User
 
-* [Office 365 Licensing with Windows PowerShell(http://windowsitpro.com/office-365/office-365-licensing-windows-powershell) - got me started
+* [Office 365 Licensing with Windows PowerShell](http://windowsitpro.com/office-365/office-365-licensing-windows-powershell) - got me started
 
 {% gist 850037ec80251c58b7f8 %}
 

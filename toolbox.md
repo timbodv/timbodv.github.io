@@ -2,6 +2,9 @@
 layout: page
 title: Toolbox
 ---
+ 
+## Development Tools
+* [ClickOneMore](http://www.clickoncemore.net/) - create fiddly ClickOnce deployment packages
 
 ## General                                   
 * [7-Zip](http://www.7-zip.org/) - (de)compress anything
@@ -15,6 +18,10 @@ title: Toolbox
 * [SetACL](https://helgeklein.com/setacl/) - powerful way to manage Windows permissions
 * [Sysinternals](http://technet.microsoft.com/en-au/sysinternals/bb545021.aspx) - essential
 * [Tail for Win32](http://tailforwin32.sourceforge.net/)
+* Visio stencils
+  * [Office 365](http://www.microsoft.com/en-us/download/details.aspx?id=35772)
+  * [Microsoft Azure Symbol/Icon Set](http://azure.microsoft.com/en-us/documentation/articles/architecture-overview/)
+  * [Azure Pack and System Center from Kevin Greene](http://gallery.technet.microsoft.com/site/search?f%5b0%5d.Type=User&f%5b0%5d.Value=Kevin%20Greene)
 * [WMI Explorer](https://wmie.codeplex.com/) - browse WMI namespaces
                                
 ## Packaging
@@ -23,9 +30,6 @@ title: Toolbox
 * [RegShot](http://sourceforge.net/projects/regshot/) - compare registry changes between snapshots
 * [Windows Installer PowerShell Module](https://psmsi.codeplex.com/) - name says it all
 * [WiX](http://wixtoolset.org/) - create MSI files
-  
-## Development Tools
-* [ClickOneMore](http://www.clickoncemore.net/) - create fiddly ClickOnce deployment packages
 
 ## PowerShell
 * [ConEmu](https://github.com/Maximus5/ConEmu) - great replacement terminal

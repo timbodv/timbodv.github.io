@@ -110,11 +110,11 @@ Multiple properties can be defined like this, although there is a character limi
 TODO
 
 ### Upgrade an MSI package
-|| Type of update || Product Code || Product Version
-|-|-|-
-| Small Update | No change | No change
-| Minor Upgrade | No change | Changed
-| Major Upgrades | Changed | Changed
+|| Type of update || Product Code || Product Version ||
+|-|-|-|
+| Small Update | No change | No change |
+| Minor Upgrade | No change | Changed |
+| Major Upgrades | Changed | Changed |
 
 ### Small and Minor Upgrades
 When a Windows Installer msi or patch is referred to as a small or minor upgrade, attempting to install the upgrade will results in a "product is already installed" message. The following command line is an example of how to apply the updated msi or patch without removing the software first: 

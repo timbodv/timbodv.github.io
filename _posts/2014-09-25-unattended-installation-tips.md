@@ -110,8 +110,8 @@ Multiple properties can be defined like this, although there is a character limi
 TODO
 
 ### Upgrade an MSI package
-|| Type of update || Product Code || Product Version ||
-|-|-|-|
+| Type of update | Product Code | Product Version |
+|---|---|---|
 | Small Update | No change | No change |
 | Minor Upgrade | No change | Changed |
 | Major Upgrades | Changed | Changed |

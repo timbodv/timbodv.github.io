@@ -38,7 +38,7 @@ If a silent installation command cannot be determined, quite often one of the on
 ### Installshield Based Installers
 #### Basic MSI
 
-~~~~ cmd
+~~~~ bat
 :: creates a setup file in %WINDIR%
 installer.exe /r
 
@@ -47,7 +47,7 @@ installer.exe /s /f1<path to response file>
 ~~~~
 
 #### InstallScript MSI 
-~~~~ cmd
+~~~~ bat
 :: you can use MSI properties after the /v to pass them to the installer
 installer.exe /s /v"/qb-"
 
@@ -55,7 +55,7 @@ installer.exe /s /v"REBOOT=ReallySuppress TRANSFORMS=sample.mst /qn"
 ~~~~
 
 ### Innosetup
-~~~~ cmd
+~~~~ bat
 :: accept defaults and show progress of installation
 installer.exe /silent /norestart
 
@@ -64,7 +64,7 @@ installer.exe /verysilent /norestart
 ~~~~
 
 ### NSIS
-~~~~ cmd
+~~~~ bat
 :: entirely depends on the package author whether this works
 installer.exe /S
 ~~~~
@@ -76,16 +76,17 @@ TODO
 Install the [PsMSI cmdlets](https://psmsi.codeplex.com/) for PowerShell.
 
 ### Install an MSI package
-~~~~ cmd
+~~~~ bat
 msiexec /i "Orca.msi"
 ~~~~
 
 To have it run automatically accepting the default settings:
+
 * append `/qn` to install completely silent, or
 * append `/qb-` to display a small progress window with a cancel button, or
 * append `/qb!` to display a small progress window with no cancel button.
 
-~~~~ cmd
+~~~~ bat
 msiexec /i "Orca.msi" REBOOT=ReallySuppress /qn
 ~~~~
 
@@ -99,7 +100,7 @@ Get-MSITable -Table Property -Path ".\Oracle Virtualbox Installer.msi" | sort Pr
 
 Append the property to the installation command line to perform the manipulation:
 
-~~~~ cmd
+~~~~ bat
 msiexec /i "Orca.msi" REBOOT=ReallySuppress DESKTOPSHORTCUT=0 /qn
 ~~~~
 
@@ -118,7 +119,7 @@ TODO
 ### Small and Minor Upgrades
 When a Windows Installer msi or patch is referred to as a small or minor upgrade, attempting to install the upgrade will results in a "product is already installed" message. The following command line is an example of how to apply the updated msi or patch without removing the software first: 
 
-~~~~
+~~~~ bat
 msiexec /i SampleUpgrade2.msi REINSTALL=ALL REINSTALLMODE=vomus REBOOT=ReallySuppress
 ~~~~
 
@@ -145,7 +146,7 @@ ProductCode                            ProductVersion      ProductName
 
 To remove this package, the following command may be used to remove it silently:
 
-~~~~ cmd
+~~~~ bat
 msiexec /x {012C59CF-074A-43DA-8085-B6E636733B59} REBOOT=ReallySuppress /qn
 ~~~~
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notes from tinkering with MDT
+title: Notes from tinkering with App-V
 ---
 ## App-V 5
 ### Event Logs

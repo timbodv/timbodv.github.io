@@ -3,9 +3,6 @@ layout: page
 title: Toolbox
 ---
  
-## Development Tools
-* [ClickOneMore](http://www.clickoncemore.net/) - create fiddly ClickOnce deployment packages
-
 ## General                                   
 * [7-Zip](http://www.7-zip.org/) - (de)compress anything
 * [DiffMerge](https://sourcegear.com/diffmerge/) - served me well
@@ -16,6 +13,17 @@ title: Toolbox
 * [Notepad2](http://www.flos-freeware.ch/notepad2.html) and [Notepad2-mod](http://xhmikosr.github.io/notepad2-mod/) - a much better notepad
 * [RegexBuddy](http://www.regexbuddy.com/) - when the web versions won't cut it
 * [SetACL](https://helgeklein.com/setacl/) - powerful way to manage Windows permissions
+* Stock Photos
+	* [Little Visuals](http://littlevisuals.co/)
+	* [Unsplash](http://unsplash.com/)
+	* [Death to the Stock Photo](http://join.deathtothestockphoto.com/)
+	* [New Old Stock](http://nos.twnsnd.co/)
+	* [Superfamous (requires attribution)](http://superfamous.com/)
+	* [Picjumbo](http://picjumbo.com/)
+	* [The Pattern Library](http://thepatternlibrary.com/)
+	* [Gratisography](http://www.gratisography.com/)
+	* [Getrefe](http://getrefe.tumblr.com/)
+	* [IM Free (requires attribution)](http://imcreator.com/free)
 * [Sysinternals](http://technet.microsoft.com/en-au/sysinternals/bb545021.aspx) - essential
 * [Tail for Win32](http://tailforwin32.sourceforge.net/)
 * Visio stencils
@@ -35,6 +43,16 @@ title: Toolbox
 * [ConEmu](https://github.com/Maximus5/ConEmu) - great replacement terminal
 * [Jump-Location](https://github.com/tkellogg/Jump-Location) - a better `cd`
 * [PSReadLine](https://github.com/lzybkr/PSReadLine) - PowerShell with spit and polish
+
+## Software Development
+* [ClickOneMore](http://www.clickoncemore.net/) - create fiddly ClickOnce deployment packages
+* [If you're not using Glimpse with ASP.NET for debugging and profiling, you're missing out - Scott Hanselman](http://www.hanselman.com/blog/IfYoureNotUsingGlimpseWithASPNETForDebuggingAndProfilingYoureMissingOut.aspx)
+* [https://github.com/rdingwall/elmah-contrib-webapi](https://github.com/rdingwall/elmah-contrib-webapi) View unhandled exceptions in Web API in elmah
+* [Font Awesome](http://fontawesome.io/) The iconic font designed for Bootstrap
+* [The Noun Project](http://thenounproject.com/) Icons
+* [nanobar.js](http://nanobar.micronube.com/)
+* [Console-Template-VWD2012](https://github.com/orangutanboy/Console-Template-VWD2012/blob/master/ConsoleApplication.zip) Create console applications in Visual Studio Web Express
+* [psake](https://github.com/psake/psake) psake is a build automation tool written in PowerShell
 
 ## Tool Resources
 * [Hanselman Ultimate Tools List](http://hanselman.com/tools)

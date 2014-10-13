@@ -1,4 +1,4 @@
-# Dependencies
+212# Dependencies
 markdown:         redcarpet
 redcarpet:
  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
@@ -13,7 +13,7 @@ tagline:          'my notepad on the web'
 description:      'my notepad on the web'
 url:              http://www.devriesitc.com
 baseurl:          '/'
-paginate:         5
+paginate:         2
 
 author:
   name:           'Tim de Vries'

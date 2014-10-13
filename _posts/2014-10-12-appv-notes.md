@@ -33,9 +33,9 @@ cmd /k /appvve:d90b63d3-9b85-41ee-8c92-682a519e4e38_4b6838d7-517f-421f-b18e-10ed
 
 ~~~~ xml
 <?xml version="1.0" standalone="no"?>
-<SOFTPKG GUID="3D60F9B5-E500-44EC-B5CC-940AB5086BED" NAME="Core Land" VERSION="1.0">
+<SOFTPKG GUID="3D60F9B7-E500-44EC-B5CC-940AB5086BED" NAME="Sample" VERSION="1.0">
      <IMPLEMENTATION>
-          <CODEBASE HREF="FILE://\OracleJavaRuntime_1.4.2_17_4.sft" GUID="00259D3B-130E-43DE-821A-69AC0BD24662" PARAMETERS="/c start /affinity 1 c:\progra~2\intern~1\iexplore.exe https://mw-bi.lb.bcc.qld.gov.au/forms/frmservlet?config=clnd" FILENAME="%CSIDL_SYSTEM%\cmd.exe" SYSGUARDFILE="Oracle Java Runtime 1.4.2_17\osguard.cp" SIZE="67043691"/>
+          <CODEBASE HREF="FILE://\OracleJavaRuntime_1.4.2_17_4.sft" GUID="00269D3B-130E-43DE-821A-69AC0BD24662" PARAMETERS="/c start /affinity 1 c:\progra~2\intern~1\iexplore.exe https://sample.com" FILENAME="%CSIDL_SYSTEM%\cmd.exe" SYSGUARDFILE="Oracle Java Runtime 1.4.2_17\osguard.cp" SIZE="67043691"/>
           <VIRTUALENV TERMINATECHILDREN="FALSE">
                <POLICIES>
                     <LOCAL_INTERACTION_ALLOWED>FALSE</LOCAL_INTERACTION_ALLOWED>
@@ -55,7 +55,7 @@ cmd /k /appvve:d90b63d3-9b85-41ee-8c92-682a519e4e38_4b6838d7-517f-421f-b18e-10ed
      <PACKAGE NAME="Oracle Java Runtime 1.4.2_17"/>
      <ABSTRACT/>
      <MGMT_SHORTCUTLIST>
-          <SHORTCUT LOCATION="%CSIDL_STARTMENU%\Online Systems" FILENAME="" OVERRIDDEN="TRUE" DISPLAY="Core Land" ICON="%SFT_MIME_SOURCE%/OracleJavaRuntime_1.4.2_17 Icons/Core Land for IE.ico"/>
+          <SHORTCUT LOCATION="%CSIDL_STARTMENU%\Sample" FILENAME="" OVERRIDDEN="TRUE" DISPLAY="Sample" ICON="%SFT_MIME_SOURCE%/OracleJavaRuntime_1.4.2_17 Icons/Sample for IE.ico"/>
      </MGMT_SHORTCUTLIST>
      <MGMT_FILEASSOCIATIONS>
           <PROGIDLIST/>

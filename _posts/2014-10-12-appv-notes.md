@@ -29,6 +29,10 @@ cmd /k /appvve:d90b63d3-9b85-41ee-8c92-682a519e4e38_4b6838d7-517f-421f-b18e-10ed
 
 
 ## App-V 4
+### Versions
+
+* [Current list of App-V 4.5 and App-V 4.6 file versions](http://support.microsoft.com/kb/2950945)
+
 ### Set Affinity
 
 ~~~~ xml

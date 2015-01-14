@@ -6,6 +6,9 @@ title: Toolbox
 ## General                                   
 * [7-Zip](http://www.7-zip.org/) - (de)compress anything
 * [Atom](https://atom.io/)
+	* Language Powershell
+	* Line Ending Converter
+	* Xml Formatter
 * [DiffMerge](https://sourcegear.com/diffmerge/) - served me well
 * [ExifTool](http://www.sno.phy.queensu.ca/~phil/exiftool/)
 * [Fiddler](http://www.telerik.com/fiddler) - web debugging

@@ -58,7 +58,8 @@ title: Toolbox
 * [nanobar.js](http://nanobar.micronube.com/)
 * [Console-Template-VWD2012](https://github.com/orangutanboy/Console-Template-VWD2012/blob/master/ConsoleApplication.zip) Create console applications in Visual Studio Web Express
 * [psake](https://github.com/psake/psake) psake is a build automation tool written in PowerShell
-
+* [Self-Hosting Google Web Fonts](http://ranf.tl/2014/12/23/self-hosting-google-web-fonts/)
+* 
 ## Tool Resources
 * [Hanselman Ultimate Tools List](http://hanselman.com/tools)
 * [Utility Belt](http://blog.codinghorror.com/updating-your-utility-belt/)

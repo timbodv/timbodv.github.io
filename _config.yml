@@ -13,7 +13,7 @@ tagline:          'my notepad on the web'
 description:      'my notepad on the web'
 url:              http://www.devriesitc.com
 baseurl:          '/'
-paginate:         2
+paginate:         4
 
 author:
   name:           'Tim de Vries'

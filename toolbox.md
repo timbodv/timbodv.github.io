@@ -5,6 +5,7 @@ title: Toolbox
  
 ## General                                   
 * [7-Zip](http://www.7-zip.org/) - (de)compress anything
+* [Atom](https://atom.io/)
 * [DiffMerge](https://sourcegear.com/diffmerge/) - served me well
 * [ExifTool](http://www.sno.phy.queensu.ca/~phil/exiftool/)
 * [Fiddler](http://www.telerik.com/fiddler) - web debugging
@@ -42,6 +43,7 @@ title: Toolbox
 ## PowerShell
 * [ConEmu](https://github.com/Maximus5/ConEmu) - great replacement terminal
 * [Jump-Location](https://github.com/tkellogg/Jump-Location) - a better `cd`
+* [Pester](https://github.com/pester/Pester) - Powershell BDD style testing framework 
 * [PSReadLine](https://github.com/lzybkr/PSReadLine) - PowerShell with spit and polish
 
 ## Software Development
@@ -57,4 +59,5 @@ title: Toolbox
 ## Tool Resources
 * [Hanselman Ultimate Tools List](http://hanselman.com/tools)
 * [Utility Belt](http://blog.codinghorror.com/updating-your-utility-belt/)
-
+* [http://www.devopsbookmarks.com/](http://www.devopsbookmarks.com/)
+*

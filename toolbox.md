@@ -15,6 +15,7 @@ title: Toolbox
 * [Greenshot](http://getgreenshot.org/) - screenshot tool
 * [MarkdownPad 2](http://markdownpad.com/) - great for authoring markdown documents
 * [Notepad2](http://www.flos-freeware.ch/notepad2.html) and [Notepad2-mod](http://xhmikosr.github.io/notepad2-mod/) - a much better notepad
+* [RegExr](http://www.southerndownsharvest.com.au/)
 * [RegexBuddy](http://www.regexbuddy.com/) - when the web versions won't cut it
 * [SetACL](https://helgeklein.com/setacl/) - powerful way to manage Windows permissions
 * Stock Photos

@@ -5,17 +5,15 @@ title: Toolbox
  
 ## General                                   
 * [7-Zip](http://www.7-zip.org/) - (de)compress anything
-* [Atom](https://atom.io/)
-	* Language Powershell
-	* Line Ending Converter
-	* Xml Formatter
 * [DiffMerge](https://sourcegear.com/diffmerge/) - served me well
 * [ExifTool](http://www.sno.phy.queensu.ca/~phil/exiftool/)
 * [Fiddler](http://www.telerik.com/fiddler) - web debugging
+* [FSCapture](http://www.faststone.org/FSCaptureDetail.htm) - screen video recorder
 * [Greenshot](http://getgreenshot.org/) - screenshot tool
+* [Hugo](https://github.com/spf13/hugo) - static site generator
 * [MarkdownPad 2](http://markdownpad.com/) - great for authoring markdown documents
 * [Notepad2](http://www.flos-freeware.ch/notepad2.html) and [Notepad2-mod](http://xhmikosr.github.io/notepad2-mod/) - a much better notepad
-* [RegExr](http://www.southerndownsharvest.com.au/)
+* [RegExr](http://www.regexr.com)
 * [RegexBuddy](http://www.regexbuddy.com/) - when the web versions won't cut it
 * [SetACL](https://helgeklein.com/setacl/) - powerful way to manage Windows permissions
 * Stock Photos
@@ -35,6 +33,7 @@ title: Toolbox
   * [Office 365](http://www.microsoft.com/en-us/download/details.aspx?id=35772)
   * [Microsoft Azure Symbol/Icon Set](http://azure.microsoft.com/en-us/documentation/articles/architecture-overview/)
   * [Azure Pack and System Center from Kevin Greene](http://gallery.technet.microsoft.com/site/search?f%5b0%5d.Type=User&f%5b0%5d.Value=Kevin%20Greene)
+* [Visual Studio Code](https://code.visualstudio.com/)
 * [WMI Explorer](https://wmie.codeplex.com/) - browse WMI namespaces
                                
 ## Packaging
@@ -46,6 +45,7 @@ title: Toolbox
 
 ## PowerShell
 * [ConEmu](https://github.com/Maximus5/ConEmu) - great replacement terminal
+* [ISESteroids](http://www.powertheshell.com/isesteroids/) - ISE addon
 * [Jump-Location](https://github.com/tkellogg/Jump-Location) - a better `cd`
 * [Pester](https://github.com/pester/Pester) - Powershell BDD style testing framework 
 * [PSReadLine](https://github.com/lzybkr/PSReadLine) - PowerShell with spit and polish
@@ -60,9 +60,10 @@ title: Toolbox
 * [Console-Template-VWD2012](https://github.com/orangutanboy/Console-Template-VWD2012/blob/master/ConsoleApplication.zip) Create console applications in Visual Studio Web Express
 * [psake](https://github.com/psake/psake) psake is a build automation tool written in PowerShell
 * [Self-Hosting Google Web Fonts](http://ranf.tl/2014/12/23/self-hosting-google-web-fonts/)
-* 
+* [Google Material icons](https://www.google.com/design/icons/)
+* [Refactoring Essentials for Visual Studio](https://visualstudiogallery.msdn.microsoft.com/68c1575b-e0bf-420d-a94b-1b0f4bcdcbcc)
+
 ## Tool Resources
 * [Hanselman Ultimate Tools List](http://hanselman.com/tools)
 * [Utility Belt](http://blog.codinghorror.com/updating-your-utility-belt/)
 * [http://www.devopsbookmarks.com/](http://www.devopsbookmarks.com/)
-*

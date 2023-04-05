@@ -1,0 +1,8 @@
+winget install Syncthing.Syncthing
+syncthing cli config options global-ann-enabled set 0
+syncthing cli config options local-ann-enabled set 0
+syncthing cli config options relays-enabled set 0
+syncthing cli config options natenabled set 0
+syncthing cli config devices add --name jupiter --device-id 'WBRJ6DS-OXV5CFL-BW66OBB-KRBUF7C-BLRRNP4-DQL4WRI-I3YPGRY-N5WOCQE'
+
+
